@@ -1,0 +1,22 @@
+﻿生成启动时间为 2015/4/8 22:32:15。
+     1>项目“C:\Users\fyc\Desktop\数据结构\线性表\循环链表\循环链表\循环链表.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\fyc\Desktop\数据结构\线性表\循环链表\Debug\循环链表.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\fyc\Desktop\数据结构\线性表\循环链表\Debug\循环链表.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 "Debug\源.obj"
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+     1>MSVCMRTD.lib(mstartup.obj) : error LNK2028: 无法解析的标记(0A0000F1) "extern "C" void __stdcall Sleep(unsigned long)" (?Sleep@@$$J14YGXK@Z)，该标记在函数 __catch$?_Initialize@LanguageSupport@<CrtImplementationDetails>@@$$FAAEXXZ$0 中被引用
+     1>MSVCRTD.lib(crtexe.obj) : error LNK2019: 无法解析的外部符号 __imp__EncodePointer@4，该符号在函数 _pre_c_init 中被引用
+     1>MSVCRTD.lib(atonexit.obj) : error LNK2001: 无法解析的外部符号 __imp__EncodePointer@4
+     1>MSVCRTD.lib(gs_support.obj) : error LNK2019: 无法解析的外部符号 __imp__QueryPerformanceCounter@4，该符号在函数 ___security_init_cookie 中被引用
+     1>MSVCRTD.lib(gs_support.obj) : error LNK2019: 无法解析的外部符号 __imp__GetCurrentProcessId@0，该符号在函数 ___security_init_cookie 中被引用
+     1>MSVCRTD.lib(gs_support.obj) : error LNK2019: 无法解析的外部符号 __imp__GetCurrentThreadId@0，该符号在函数 ___security_init_cookie 中被引用
+     1>MSVCRTD.lib(gs_support.obj) : error LNK2019: 无法解析的外部符号 __imp__GetSystemTimeAsFileTime@4，该符号在函数 ___security_init_cookie 中被引用
+     1>MSVCRTD.lib(atonexit.obj) : error LNK2019: 无法解析的外部符号 __imp__DecodePointer@4，该符号在函数 __onexit 中被引用
+     1>MSVCRTD.lib(gs_report.obj) : error LNK2019: 无法解析的外部符号 __imp__IsDebuggerPresent@0，该符号在函数 ___raise_securityfailure 中被引用
+     1>MSVCRTD.lib(gs_report.obj) : error LNK2019: 无法解析的外部符号 _IsProcessorFeaturePresent@4，该符号在函数 ___report_gsfailure 中被引用
+     1>MSVCMRTD.lib(mstartup.obj) : error LNK2019: 无法解析的外部符号 "extern "C" void __stdcall Sleep(unsigned long)" (?Sleep@@$$J14YGXK@Z)，该符号在函数 __catch$?_Initialize@LanguageSupport@<CrtImplementationDetails>@@$$FAAEXXZ$0 中被引用
+     1>C:\Users\fyc\Desktop\数据结构\线性表\循环链表\Debug\循环链表.exe : fatal error LNK1120: 10 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\fyc\Desktop\数据结构\线性表\循环链表\循环链表\循环链表.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.46

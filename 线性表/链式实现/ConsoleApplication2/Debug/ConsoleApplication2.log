@@ -1,0 +1,36 @@
+﻿生成启动时间为 2015/4/9 17:33:09。
+     1>项目“C:\Users\fyc\Desktop\数据结构\线性表\链式实现\ConsoleApplication2\ConsoleApplication2.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\fyc\Desktop\数据结构\线性表\链式实现\Debug\ConsoleApplication2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\fyc\Desktop\数据结构\线性表\链式实现\Debug\ConsoleApplication2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\fyc\Desktop\数据结构\线性表\链式实现\Debug\ConsoleApplication2.lib" /MACHINE:X86 "Debug\源.obj"
+     1>MSVCRTD.lib(atonexit.obj) : error LNK2019: 无法解析的外部符号 __imp__EncodePointer@4，该符号在函数 ___atonexitinit 中被引用
+     1>MSVCRTD.lib(crtexe.obj) : error LNK2001: 无法解析的外部符号 __imp__EncodePointer@4
+     1>MSVCRTD.lib(atonexit.obj) : error LNK2019: 无法解析的外部符号 __imp__DecodePointer@4，该符号在函数 __onexit 中被引用
+     1>MSVCRTD.lib(error.obj) : error LNK2019: 无法解析的外部符号 __imp__IsDebuggerPresent@0，该符号在函数 "void __cdecl failwithmessage(void *,int,int,char const *)" (?failwithmessage@@YAXPAXHHPBD@Z) 中被引用
+     1>MSVCRTD.lib(gs_report.obj) : error LNK2001: 无法解析的外部符号 __imp__IsDebuggerPresent@0
+     1>MSVCRTD.lib(error.obj) : error LNK2019: 无法解析的外部符号 __imp__RaiseException@16，该符号在函数 "int __cdecl DebuggerProbe(unsigned long)" (?DebuggerProbe@@YAHK@Z) 中被引用
+     1>MSVCRTD.lib(error.obj) : error LNK2019: 无法解析的外部符号 __imp__GetLastError@0，该符号在函数 "void __cdecl _RTC_AllocaFailure(void *,struct _RTC_ALLOCA_NODE *,int)" (?_RTC_AllocaFailure@@YAXPAXPAU_RTC_ALLOCA_NODE@@H@Z) 中被引用
+     1>MSVCRTD.lib(pdblkup.obj) : error LNK2001: 无法解析的外部符号 __imp__GetLastError@0
+     1>MSVCRTD.lib(error.obj) : error LNK2019: 无法解析的外部符号 __imp__GetProcAddress@8，该符号在函数 "void __cdecl _RTC_AllocaFailure(void *,struct _RTC_ALLOCA_NODE *,int)" (?_RTC_AllocaFailure@@YAXPAXPAU_RTC_ALLOCA_NODE@@H@Z) 中被引用
+     1>MSVCRTD.lib(pdblkup.obj) : error LNK2001: 无法解析的外部符号 __imp__GetProcAddress@8
+     1>MSVCRTD.lib(error.obj) : error LNK2019: 无法解析的外部符号 __imp__LoadLibraryExW@12，该符号在函数 "void __cdecl _RTC_AllocaFailure(void *,struct _RTC_ALLOCA_NODE *,int)" (?_RTC_AllocaFailure@@YAXPAXPAU_RTC_ALLOCA_NODE@@H@Z) 中被引用
+     1>MSVCRTD.lib(pdblkup.obj) : error LNK2001: 无法解析的外部符号 __imp__LoadLibraryExW@12
+     1>MSVCRTD.lib(error.obj) : error LNK2019: 无法解析的外部符号 __imp__MultiByteToWideChar@24，该符号在函数 "void __cdecl failwithmessage(void *,int,int,char const *)" (?failwithmessage@@YAXPAXHHPBD@Z) 中被引用
+     1>MSVCRTD.lib(error.obj) : error LNK2019: 无法解析的外部符号 __imp__WideCharToMultiByte@32，该符号在函数 "void __cdecl failwithmessage(void *,int,int,char const *)" (?failwithmessage@@YAXPAXHHPBD@Z) 中被引用
+     1>MSVCRTD.lib(gs_report.obj) : error LNK2019: 无法解析的外部符号 _IsProcessorFeaturePresent@4，该符号在函数 ___report_gsfailure 中被引用
+     1>MSVCRTD.lib(gs_support.obj) : error LNK2019: 无法解析的外部符号 __imp__QueryPerformanceCounter@4，该符号在函数 ___security_init_cookie 中被引用
+     1>MSVCRTD.lib(gs_support.obj) : error LNK2019: 无法解析的外部符号 __imp__GetCurrentProcessId@0，该符号在函数 ___security_init_cookie 中被引用
+     1>MSVCRTD.lib(gs_support.obj) : error LNK2019: 无法解析的外部符号 __imp__GetCurrentThreadId@0，该符号在函数 ___security_init_cookie 中被引用
+     1>MSVCRTD.lib(gs_support.obj) : error LNK2019: 无法解析的外部符号 __imp__GetSystemTimeAsFileTime@4，该符号在函数 ___security_init_cookie 中被引用
+     1>MSVCRTD.lib(pdblkup.obj) : error LNK2019: 无法解析的外部符号 __imp__HeapAlloc@12，该符号在函数 "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z) 中被引用
+     1>MSVCRTD.lib(pdblkup.obj) : error LNK2019: 无法解析的外部符号 __imp__HeapFree@12，该符号在函数 "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z) 中被引用
+     1>MSVCRTD.lib(pdblkup.obj) : error LNK2019: 无法解析的外部符号 __imp__GetProcessHeap@0，该符号在函数 "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z) 中被引用
+     1>MSVCRTD.lib(pdblkup.obj) : error LNK2019: 无法解析的外部符号 __imp__VirtualQuery@12，该符号在函数 "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z) 中被引用
+     1>MSVCRTD.lib(pdblkup.obj) : error LNK2019: 无法解析的外部符号 __imp__FreeLibrary@4，该符号在函数 "struct HINSTANCE__ * __cdecl GetPdbDllFromInstallPath(void)" (?GetPdbDllFromInstallPath@@YAPAUHINSTANCE__@@XZ) 中被引用
+     1>MSVCRTD.lib(pdblkup.obj) : error LNK2019: 无法解析的外部符号 __imp__GetModuleFileNameW@12，该符号在函数 "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPAUHINSTANCE__@@XZ) 中被引用
+     1>MSVCRTD.lib(pdblkup.obj) : error LNK2019: 无法解析的外部符号 __imp__GetModuleHandleW@4，该符号在函数 "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPAUHINSTANCE__@@XZ) 中被引用
+     1>C:\Users\fyc\Desktop\数据结构\线性表\链式实现\Debug\ConsoleApplication2.exe : fatal error LNK1120: 21 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\fyc\Desktop\数据结构\线性表\链式实现\ConsoleApplication2\ConsoleApplication2.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.24
